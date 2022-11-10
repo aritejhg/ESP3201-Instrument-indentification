@@ -4,8 +4,8 @@ This repository contains the code used for downloading the OpenMIC dataset, conv
 ## Folders
 ### Data pre-processing
 1. *data_preprocessing_logmel_studio.ipynb*
-* conversion of OpenMIC OGG audio clips to Log-Mel spectrogram png files. 
-* uses the [librosa.feature.melspectrogram](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html) function from Librosa library
+ * conversion of OpenMIC OGG audio clips to Log-Mel spectrogram png files. 
+ * uses the [librosa.feature.melspectrogram](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html) function from Librosa library
 2. *data_preprocessing_gammatone_studio.ipynb*
 * conversion of OpenMIC OGG audio clips to Gammatone spectrogram png files.
 * uses a FFT approximation of the actual Gammatone filter bank, referenced from [Gammatone Filterbank Toolkit](https://github.com/detly/gammatone) by Jason Heeris, João Felipe Santos and Kirit Thadaka
